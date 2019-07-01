@@ -1,0 +1,12 @@
+{
+    "name": "denifelixe/php-filesystem-handler",
+    "description": "PHP Filesystem Handler",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Denifelixe\\PHPFilesystemHandler\\": "src"
+        }
+    }
+}
