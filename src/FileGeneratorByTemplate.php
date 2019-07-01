@@ -28,7 +28,7 @@ class FileGeneratorByTemplate
 
 	public function setFileOutputExtension(string $file_output_extension): void
 	{
-		$this->file_output_extension = $file_output_extension
+		$this->file_output_extension = $file_output_extension;
 	}
 
 	public function setTemplate(string $template_file): void
