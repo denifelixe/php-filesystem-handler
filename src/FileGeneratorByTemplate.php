@@ -46,7 +46,7 @@ class FileGeneratorByTemplate
 		return basename($this->file_and_class_name);
 	}
 
-	public function getNamespace()
+	public function getNamespaceSuffix()
 	{
 		if (dirname($this->file_and_class_name) == '.') {
             $namespace = '';
